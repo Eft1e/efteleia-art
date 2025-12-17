@@ -1,0 +1,7 @@
+User-agent: *
+Disallow: /admin/
+Disallow: /css/
+Disallow: /js/
+Disallow: /images/
+
+Sitemap: https://eftie.github.io/efteleia-art/sitemap.xml
