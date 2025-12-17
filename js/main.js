@@ -1,9 +1,4 @@
-// main.js — Efteleia: тихий отклик на любой клик
-// Каждое прикосновение оставляет след. Каждый след — фиолетовый.
-
 document.addEventListener('click', (e) => {
-  // Игнорируем клики по ссылкам, которые ведут на другую страницу?
-  // Нет — пусть всё живёт!
 
   const ripple = document.createElement('div');
   ripple.style.position = 'fixed';
@@ -33,3 +28,4 @@ document.addEventListener('click', (e) => {
     }
   }, 300);
 });
+
