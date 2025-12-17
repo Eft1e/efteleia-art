@@ -77,4 +77,21 @@ main {
   border-radius: 6px;
   box-shadow: 0 2px 5px rgba(90, 74, 120, 0.15);
   display: block;
+
+}
+
+.avatar {
+  text-align: center;
+  margin-bottom: 0.5rem;
+}
+
+.avatar img {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  border: 2px solid #8a6fbf; /* фиолетовая рамка */
+  background: white; /* если изображение прозрачное */
+  box-shadow: 0 2px 8px rgba(90, 74, 120, 0.2);
+  object-fit: cover; /* если изображение не квадратное */
+  display: inline-block;
 }
