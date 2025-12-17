@@ -95,3 +95,15 @@ main {
   object-fit: cover; /* если изображение не квадратное */
   display: inline-block;
 }
+
+/* Цвет выделения текста — фиолетовый */
+::selection {
+  background-color: rgba(138, 111, 191, 0.3);
+  color: #5a4a78; /* тёмно-фиолетовый текст */
+}
+
+/* Для Firefox */
+::-moz-selection {
+  background-color: rgba(138, 111, 191, 0.3);
+  color: #5a4a78;
+}
